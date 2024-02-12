@@ -21,7 +21,7 @@ Edges → 12.0, 8.0
 Expected Result = [12.0 * 1.0 + 8.0 * 1.0] = 20
 ```
 
-> 📘 The code is in this notebook.
+> 📘 The code is in [this](notebooks/distances.ipynb) notebook.
 
 ## LoL Items
 
@@ -34,7 +34,7 @@ If the item rarity is "Basic" then the `total_cost` is the item `cost`.
 Otherwise, the `total_cost` is the **sum** of the preivious items `total_cost * amount`..
 
 > 💡 This challenge uses the "[Sunfire Aegis]" item.  
-> 📘 The code is in this notebook.
+> 📘 The code is in [this](notebooks/lol-items.ipynb) notebook.
 
 [Sunfire Aegis]: https://leagueoflegends.fandom.com/wiki/Sunfire_Aegis
 
