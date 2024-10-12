@@ -17,6 +17,6 @@ build:
 	sbt assembly
 
 run:
-	sbt run
+	spark-submit target/scala-2.12/doran-assembly-1.0.jar
 
 .PHONY: help clean build run

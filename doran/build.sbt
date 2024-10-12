@@ -6,6 +6,7 @@ scalaVersion := "2.12.20"
 
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "3.5.3" % "provided",
+  "org.apache.spark" %% "spark-sql" % "3.5.3" % "provided"
 )
 
 // über JARs
