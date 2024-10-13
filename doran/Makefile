@@ -2,11 +2,15 @@
 
 help:
 	@echo "⭐ Available commands..."
+	@echo "  » format (format scala code)"
 	@echo "  » clean (delete target folder)"
 	@echo "  » build (build a über JAR)"
 	@echo "  » run"
 	@echo ""
 	@echo "⏰ $(shell date)"
+
+format:
+	sbt scalafmtAll
 
 clean:
 	rm -rf target/

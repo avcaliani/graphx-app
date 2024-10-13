@@ -9,7 +9,7 @@
 # VSCode - Metals
 .metals
 .bloop
-project/**/metals.sbt
+**/project/**/metals.sbt
 
 # Scala
 target

@@ -1,11 +1,12 @@
 package br.avcaliani.doran
 
-import org.apache.spark.sql.SparkSession
 import br.avcaliani.doran.utils.DataMock
+import org.apache.spark.sql.SparkSession
 
 object Main extends App {
 
-  val spark = SparkSession.builder()
+  val spark = SparkSession
+    .builder()
     .appName("doran")
     .config("spark.master", "local")
     .getOrCreate()
